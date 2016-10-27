@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TangoBattleChess.CSharp.Plugins", "TangoBattleChess.CSharp.Plugins.csproj", "{40D766FE-DD60-3793-57D3-218CD3008344}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TangoBattleChess.CSharp", "TangoBattleChess.CSharp.csproj", "{A8006C42-06AB-C4FB-4A95-FF54E33F89D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TangoBattleChess.CSharp.Editor", "TangoBattleChess.CSharp.Editor.csproj", "{DD411B31-5FF8-71F1-DD50-772E533DA66B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40D766FE-DD60-3793-57D3-218CD3008344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D766FE-DD60-3793-57D3-218CD3008344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D766FE-DD60-3793-57D3-218CD3008344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D766FE-DD60-3793-57D3-218CD3008344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8006C42-06AB-C4FB-4A95-FF54E33F89D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8006C42-06AB-C4FB-4A95-FF54E33F89D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8006C42-06AB-C4FB-4A95-FF54E33F89D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8006C42-06AB-C4FB-4A95-FF54E33F89D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD411B31-5FF8-71F1-DD50-772E533DA66B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD411B31-5FF8-71F1-DD50-772E533DA66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD411B31-5FF8-71F1-DD50-772E533DA66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD411B31-5FF8-71F1-DD50-772E533DA66B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
