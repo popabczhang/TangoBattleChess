@@ -1372,6 +1372,14 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: ff519ec4bed0442dc9bf3a21a9777c4d, type: 2}
+      propertyPath: m_enableVideoOverlay
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: ff519ec4bed0442dc9bf3a21a9777c4d, type: 2}
+      propertyPath: m_videoOverlayUseByteBufferMethod
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ff519ec4bed0442dc9bf3a21a9777c4d, type: 2}
   m_IsPrefabParent: 0
@@ -1498,7 +1506,7 @@ MonoBehaviour:
   - {fileID: 101250, guid: 12a6c19c07755487a969ed3b49127ec2, type: 2}
   - {fileID: 138472, guid: 49690c6c000a64091bf1bc6ed3bca4b8, type: 2}
   - {fileID: 168644, guid: d7e9ee9f7906d45978879155f392bde5, type: 2}
-  m_networkDeltaPoseControllerPrefab: {fileID: 110412, guid: 35980ed813650489d9694a42f360bb0e,
+  m_networkDeltaPoseControllerPrefab: {fileID: 1000013868230612, guid: eb469764279514cbc98477bfda3995cc,
     type: 2}
   m_uiBackgroundOverlay: {fileID: 536758283}
   m_progressPanel: {fileID: 373651162}
