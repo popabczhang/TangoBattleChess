@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{93F25D0C-DB05-146E-9A9A-459E28F2D751}") = "TangoBattleChess", "Assembly-CSharp-firstpass.csproj", "{08E234B9-DD9D-C9A1-FAF1-608B3D543F00}"
+EndProject
+Project("{93F25D0C-DB05-146E-9A9A-459E28F2D751}") = "TangoBattleChess", "Assembly-CSharp.csproj", "{A908BF46-55D6-981F-89BD-AD2FE610E68A}"
+EndProject
+Project("{93F25D0C-DB05-146E-9A9A-459E28F2D751}") = "TangoBattleChess", "Assembly-CSharp-Editor.csproj", "{EC352CB2-12E9-EB9E-833B-E7D61D39ED65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08E234B9-DD9D-C9A1-FAF1-608B3D543F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E234B9-DD9D-C9A1-FAF1-608B3D543F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E234B9-DD9D-C9A1-FAF1-608B3D543F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E234B9-DD9D-C9A1-FAF1-608B3D543F00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A908BF46-55D6-981F-89BD-AD2FE610E68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A908BF46-55D6-981F-89BD-AD2FE610E68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A908BF46-55D6-981F-89BD-AD2FE610E68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A908BF46-55D6-981F-89BD-AD2FE610E68A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC352CB2-12E9-EB9E-833B-E7D61D39ED65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC352CB2-12E9-EB9E-833B-E7D61D39ED65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC352CB2-12E9-EB9E-833B-E7D61D39ED65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC352CB2-12E9-EB9E-833B-E7D61D39ED65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
