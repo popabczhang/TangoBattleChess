@@ -14,13 +14,16 @@ public class takeMe : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+//		Debug.Log(Input.touchCount);
 		// Logic to pick up enable and disable - coming from the UI
-		if (Input.touchCount > 0){
+		if (Input.touchCount > 0) {
 
 //		if(Input.GetKeyDown("t")) {
 //			Debug.Log ("Key down");
 //		Take only x and z co ordinate from the parent. This seems more plausible
 			transform.parent = taker;
+		} else {
+			transform.parent = null;
 		}
 		
 		// makes the rotation locked even if the picker rotation changes
