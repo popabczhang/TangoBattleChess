@@ -742,8 +742,8 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 408344}
   ObservedComponentsFoldoutOpen: 1
-  viewIdField: 3
-  instantiationId: 3
+  viewIdField: 0
+  instantiationId: -1
   isRuntimeInstantiated: 0
 --- !u!120 &12019794
 LineRenderer:
