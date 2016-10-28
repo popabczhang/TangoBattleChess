@@ -33,4 +33,6 @@ public static class Globals
     /// The room player is going to join.
     /// </summary>
     public static RoomInfo m_gameRoom;
+
+	public static Room m_room;
 }

@@ -155,6 +155,7 @@ public class MultiplayerCubeStackerUIController : Photon.PunBehaviour, ITangoAre
         if (Globals.m_curAreaDescription == null)
         {
             PhotonNetwork.JoinRandomRoom();
+
         }
         else
         {

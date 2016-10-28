@@ -7,13 +7,20 @@ public class triggerTest : MonoBehaviour {
 	}
 
 	void OnTriggerEnter ( Collider other ){
-		Component halo = GetComponent("Halo");
-		halo.GetType().GetProperty("enabled").SetValue(halo, true, null);
-		gameObject.GetComponent<ParticleSystem>().Play();
+		
+		//Component halo = GetComponent("Halo");
+//		halo.GetType().GetProperty("enabled").SetValue(halo, true, null);
+		if (GetComponent<ParticleSystem> ().isPlaying) {
+			GetComponent<ParticleSystem> ().Stop ();
+		} else {
+			GetComponent<ParticleSystem> ().Play ();
+		}
+
+//		gameObject.GetComponent<ParticleSystem>().Play();
 		Debug.Log ("JetPack picked!");
-		//		GameObject vrMove = GameObject.Find ("CardboardMain");
-		//		VRMoveController vrMoveLoc = vrMove.GetComponent<VRMoveController>();
-		//		vrMoveLoc.hangTime();
-		//		Destroy(this.gameObject);
+
+//		ExitGames.Client.Photon.Hashtable<string, bool> property = new 
+//		PhotonNetwork.room.SetCustomProperties();
+//		r.SetCustomProperties();
 	}
 }
