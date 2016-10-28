@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.UI;
+
 
 
 public class changecolor : MonoBehaviour {
@@ -8,10 +8,12 @@ public class changecolor : MonoBehaviour {
 	public GameObject Btn; 
 	private bool BtnBool = false;
 	private float t = 0;
+    public GameObject[] Cells;
+    public GameObject[] PiecesPlayer1;
+    public GameObject[] PiecesPlayer2;
 
-	// Use this for initialization
-	void Start () {
-//		BtnBool = false;
+    // Use this for initialization
+    void Start () {
 	}
 
 	// Update is called once per frame
@@ -42,4 +44,5 @@ public class changecolor : MonoBehaviour {
 			BtnBool = true;
 		} 
 	}
+
 }
