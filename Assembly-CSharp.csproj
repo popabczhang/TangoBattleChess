@@ -249,6 +249,7 @@
      <Compile Include="Assets\TangoSDK\TangoUX\Scripts\Interfaces\ITangoUX.cs" />
      <Compile Include="Assets\TangoSDK\TangoUX\Scripts\Listeners\UxExceptionEventListener.cs" />
      <Compile Include="Assets\TangoSDK\TangoUX\Scripts\TangoUx.cs" />
+     <Compile Include="Assets\rotationLock.cs" />
      <Compile Include="Assets\triggerTest.cs" />
      <None Include="Assets\TangoSDK\Examples\ExperimentalMeshOcclusion\Shaders\ZTestBlur.shader" />
      <None Include="Assets\TangoPrefabs\Shaders\TangoEnvironmentalLighting\EnvironmentalLightingStandard.shader" />
