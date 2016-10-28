@@ -25,10 +25,10 @@ public class changecolor : MonoBehaviour {
 	} 
 
 	void OnTriggerExit(Collider other) {
-		if (( other.CompareTag("Player")) && gameObject.CompareTag ("cube"))  {
+		if ( gameObject.CompareTag ("cube"))  {
 			 gameObject.GetComponent<Renderer> ().material.color = new Color (255, 255, 255, 250);
 		} 
-		if (( other.CompareTag("Player")) && gameObject.CompareTag ("cube1")){
+		if (gameObject.CompareTag ("cube1")){
 			 gameObject.GetComponent<Renderer> ().material.color = new Color (0, 0, 0, 250);
 		}
 	}
