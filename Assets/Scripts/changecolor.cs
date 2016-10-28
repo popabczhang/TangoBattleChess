@@ -5,8 +5,9 @@ using System.Collections;
 
 public class changecolor : MonoBehaviour {
 
-
     public GameObject[] Cells;
+    public GameObject[] PiecesPlayer1;
+    public GameObject[] PiecesPlayer2;
 
     // Use this for initialization
     void Start () {
