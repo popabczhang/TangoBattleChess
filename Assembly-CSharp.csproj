@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\changecolor.cs" />
+     <Compile Include="Assets\chess_assets\Toon_RTS_demo\animation.cs" />
      <Compile Include="Assets\chess_assets\valil_chess_engine_component\BlackBishop.cs" />
      <Compile Include="Assets\chess_assets\valil_chess_engine_component\BlackKing.cs" />
      <Compile Include="Assets\chess_assets\valil_chess_engine_component\BlackKnight.cs" />
