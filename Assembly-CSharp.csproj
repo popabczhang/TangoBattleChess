@@ -166,6 +166,7 @@
      <Compile Include="Assets\Scripts\MultiplayerCubeStackerUIController.cs" />
      <Compile Include="Assets\Scripts\NetworkingInfo.cs" />
      <Compile Include="Assets\Scripts\RPCFileSender.cs" />
+     <Compile Include="Assets\Scripts\changecolor.cs" />
      <Compile Include="Assets\TangoPrefabs\Scripts\ARCameraPostProcess.cs" />
      <Compile Include="Assets\TangoPrefabs\Scripts\TangoARPoseController.cs" />
      <Compile Include="Assets\TangoPrefabs\Scripts\TangoARScreen.cs" />
