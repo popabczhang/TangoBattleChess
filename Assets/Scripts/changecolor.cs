@@ -19,17 +19,17 @@ public class changecolor : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		if (other.gameObject.CompareTag ("cube") || other.gameObject.CompareTag ("cube1")) {
-			other.gameObject.GetComponent<Renderer> ().material.color = new Color (255, 0, 0, 250);
+		if (other.CompareTag("Player") ) {
+			 gameObject.GetComponent<Renderer> ().material.color = new Color (255, 0, 0, 250);
 		}
 	} 
 
 	void OnTriggerExit(Collider other) {
-		if (other.gameObject.CompareTag ("cube")) {
-			other.gameObject.GetComponent<Renderer> ().material.color = new Color (255, 255, 255, 250);
+		if (( other.CompareTag("Player")) && gameObject.CompareTag ("cube"))  {
+			 gameObject.GetComponent<Renderer> ().material.color = new Color (255, 255, 255, 250);
 		} 
-		if (other.gameObject.CompareTag ("cube1")){
-			other.gameObject.GetComponent<Renderer> ().material.color = new Color (0, 0, 0, 250);
+		if (( other.CompareTag("Player")) && gameObject.CompareTag ("cube1")){
+			 gameObject.GetComponent<Renderer> ().material.color = new Color (0, 0, 0, 250);
 		}
 	}
 }

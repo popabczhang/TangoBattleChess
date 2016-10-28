@@ -23,6 +23,7 @@ GameObject:
   - 65: {fileID: 65000012820679510}
   - 23: {fileID: 23000012691398788}
   - 54: {fileID: 54000012994855782}
+  - 114: {fileID: 114000013178006778}
   m_Layer: 0
   m_Name: White
   m_TagString: cube
@@ -106,3 +107,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 50, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114000013178006778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014046973826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9e13b6f989604d1db5adb6b712481e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cells: []
+  PiecesPlayer1: []
+  PiecesPlayer2: []
