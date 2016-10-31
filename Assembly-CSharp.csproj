@@ -251,6 +251,7 @@
      <Compile Include="Assets\TangoSDK\TangoUX\Scripts\Listeners\UxExceptionEventListener.cs" />
      <Compile Include="Assets\TangoSDK\TangoUX\Scripts\TangoUx.cs" />
      <Compile Include="Assets\movePiece.cs" />
+     <Compile Include="Assets\networkedTouchBool.cs" />
      <Compile Include="Assets\rotationLock.cs" />
      <Compile Include="Assets\takeMe.cs" />
      <Compile Include="Assets\triggerTest.cs" />
