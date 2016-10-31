@@ -1,11 +1,9 @@
-TangoWithMultiplayer
-===========================================
-Copyright (C) 2016 Google Inc.
-
+Tango - BattleChess Multiplayer
+====================
 
 Contents
 --------
-This project uses the Tango SDK and Photon SDK to create a multi-user cube stacking experience in a shared world. Area Descriptions are used to have all users localized to the shared world. All players need to be near each other to relocalize.
+This project uses the Tango SDK and Photon SDK to create a multi-user real scale chess experience in a shared world. Area Descriptions are used to have all users localized to the shared world. Both players need to be near each other to relocalize.
 
 The first user to start the experience must choose an existing Area Description and acts as the host. When an new user joins the experience, the host sends that Area Description over the network. When the send is complete, the new user loads that Area Description and localizes to it. Once localized, all players can see each other and together edit a shared cube stacking world.
 
